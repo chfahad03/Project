@@ -454,6 +454,21 @@ ul{
 }
 
 @media only screen and (max-width: 600px){
+    .input2{
+        width: 170px;
+        margin-left: 5px;       
+        padding-left: 2px;
+        padding-right: 2px;
+        padding-bottom: 2px;
+        padding-top: 2px;    
+        margin-left: 0px;
+        margin-top: 5px;
+        font-size: 12px;
+        
+    }
+}
+
+@media only screen and (max-width: 600px){
     .img{
         margin: 0px;
         padding: 0px;
