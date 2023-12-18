@@ -1,19 +1,48 @@
-.navwidth{
-    padding-left: 270px;
+nav {
+    background-color:#e7e0e0;
 }
 
+  .nav-item{
+      margin-left: 200px;
+  }
 
-@media screen and (max-width: 800px) {
-    .navwidth {
-       padding: 10px;
+  
+  .navcontact{
+      margin-right: 200px;
+  }
+
+
+
+  .navbar-brand img {
+    max-height: 40px;
+    width: auto;
+  }
+
+  @media (max-width: 767px) {
+    .nav-item {
+      margin: 0px;
     }
 }
 
-@media screen and (max-width: 600px) {
-    .navicon {
-       padding: 10px;
+@media (max-width: 767px) {
+    .navcontact{
+      margin: 0px;
     }
 }
+
+  @media (max-width: 767px) {
+    .navbar-nav {
+      flex-direction: column;
+    }
+
+    .navbar-nav .nav-item {
+      text-align: center;
+    }
+  }
+
+/* nav end */
+
+
 
 .margintop {
     margin-top: 60px;
